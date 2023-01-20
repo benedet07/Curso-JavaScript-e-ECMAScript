@@ -1,0 +1,22 @@
+        -//Primeira Aula//-
+
+
+_Repetições com teste no início_
+
+while(condição){                //Executando enquanto for uma condição true
+
+}
+
+
+_Repetições com teste no final_
+
+do{
+        
+}while(condição)
+
+
+_Repetições com controle_
+
+for(inicio;teste;incr){
+        
+}

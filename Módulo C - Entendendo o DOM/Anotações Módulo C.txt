@@ -1,0 +1,49 @@
+            -Primeira Aula-
+
+
+Árvore DOM
+
+_window_
+
+.location    // Qual é a URL
+.document    // Documento Atual
+    >.html
+        >.head (meta, title, etc)
+        >.body (
+            >h1;
+            >.p;
+                >strong
+            >p
+            >div;
+        )
+.history     // Guarda histórico de navegação
+
+5 Métodos de acesso a elementos da árvore DOM
+
+Por Marca
+    getElementsByTagName()
+Por ID
+    getElementById()
+Por Nome
+    getElementsByName()
+Por Classe
+    getElementsByClassName()
+Por Seletor
+    querySelector()
+    querySelectorAll() //Plural
+
+Toda div é representado por #
+Toda classe é representada por .
+
+
+            -Segunda Aula-
+
+
+Eventos
+https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+Funções
+function ação(parâmetros){
+    bloco
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBGE</title>
+</head>
+<body>
+    <h1>Você é Brasileiro?</h1>
+    Qual país você vive: <input name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="ver">
+
+    </div>
+    <script>
+        function verificar() {
+            var txtn = document.querySelector('input#txtnac')
+            var ver = document.querySelector('div#ver')
+            var txtn = txtn.value
+            ver.innerHTML = `<p>Vivendo em <strong>${txtn}</strong></p>`
+            if(txtn!='Brasil') {
+            ver.innerHTML += `<p>Você é <strong>estrangeiro</strong></p>`
+            } else {
+            ver.innerHTML += `<p>Você é <strong>Brasileiro</strong><p/p>`
+            }
+        }
+    </script>
+</body>
+</html>

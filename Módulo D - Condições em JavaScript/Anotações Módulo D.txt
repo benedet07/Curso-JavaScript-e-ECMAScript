@@ -1,0 +1,55 @@
+            -//Primeira Aula//-
+
+
+    _Condições Simples_
+
+
+if (condição) {         //Simples, sem acontecer algo caso seja falso
+    true
+}
+
+
+    _Condição Composta_
+
+
+if (condição) {         //Duas possibilidades
+    true
+} else {
+    false
+}
+
+
+            -//Segunda Aula//-
+
+
+    _Condição Aninhada_
+
+
+if (cond1) {
+    bloco1
+} else {
+        if (cond2) {
+            bloco 2
+        } else {
+            bloco 3
+        }
+}
+
+
+    _Condição Múltipla_
+
+
+switch(expressão) {         //brake obrigatório no final de cada case
+    case valor 1:
+
+        brake
+    case valor 2:
+
+        brake
+    case valor 3:
+
+        brake
+    default:
+
+        brake
+}

@@ -1,0 +1,37 @@
+            -//Primeira Aula//-
+
+
+Texto e imagens = HTML
+Design UX = CSS
+Interações/UI = JavaScript
+
+Desenvolvimento HTML e CSS
+Programação JavaScript
+
+            -//Segunda Aula//-
+
+
+Node.js da a possibilidade de usar JavaScript no servidor/backend
+Voltar a assistir essa aula para relembrar das bibliotecas e tecnologias JavaScript - https://www.youtube.com/watch?v=rUTKomc2gG8&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=5
+
+
+            -//Terceira Aula//-
+
+
+Referências JavaScript:
+developer.mozilla.org
+ecma-international.org
+
+Livros:
+JavaScript - Guia do Programador
+JavaScript - o Guia Definitivo
+
+
+            -//Quarta Aula//-
+
+
+Criar pasta ex001.html
+
+window.alert('Alertar Mensagem')
+window.confirm('Janela de Confirmação')
+window.prompt('Forma de interagir com o usuário')

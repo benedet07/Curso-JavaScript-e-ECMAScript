@@ -1,0 +1,191 @@
+               -//Primeira Aula//-
+
+
+= significa RECEBE
+
+vaga a1 = carro 1
+     a1 = carro 2
+     a1 = null
+
+Dois dados não entram no mesmo espaço, um precisa sair para o outro entrar
+.Por isso são usadas VARIÁVEIS (var ou let).
+
+var n1 = 5
+var n2 = 8.5
+var n3 = 15
+
+var s1 = 'JavaScript'
+var s2 = 'Curso em Vídeo'
+var s3 = 'Guanabara'
+
+Identificadores de variável:
+
+-Letra, $ ou _
+-Não podem começar com números
+-É possível usar letras ou números
+-É possível usar acentos e símbolos
+-Não podem conter espaços
+-Não podem ser palavras reservadas
+
+Dicas pra criação de variáveis:
+
+-Maiúsculas e minúsculas fazem a diferença
+-Tente escolher nomes coerentes para as variáveis
+-Evite se tornar um 'programador alfabeto' ou um 'progamador contador'
+
+     typeoff // serve para saber o tipo do dado (Primitive Data)
+
+Number
+     Infinity
+     NaN
+String
+Boolean
+null
+undefined
+object
+     Array (vetor)
+function
+
+
+               -//Segunda Aula//-
+
+
+<!-- Comentário HTML -->
+/* Comentário em CSS */
+
+_Usar ' + quando quiser usar string em um texto
+window.alert('É um grande prazer em te conhecer,  ' + nome + '!')
+
+_Também pode ser usado `${}` com a mesma função acima
+
+_Usar Number.parseInt ou Number.parseFloat para transformar uma string num número
+var n1 = Number.parseFloat(window.prompt('Digite um número: '))
+
+_Também pode ser usado somente Number(n) caso não tenha preferência por números inteiros ou reais
+
+_Usar String(n) ou n.tostring() caso queira transformar número em string
+
+s.length // Quantos caracteres a string tem
+s.toUpperCase // Tudo para maiúsculas
+s.toLowerCase // Tudo pra minúsculas
+
+NODE
+> var n1 = 1535.5
+undefined
+> n1
+1535.5
+> n1.toFixed(2)
+'1535.50'
+> n1.toFixed(2).replace('.', ',')
+'1535,50'
+> n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+'R$ 1.535,50'
+
+
+               -//Terceira Aula//-
+
+
+Operadores:
+
+
+-Aritméticos-
+
+
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2,5
+5 % 2 = 1      //Usado pra resto da divisão inteira
+5 ** 2 = 25    //Potência
+
+__Ordem de precedência__
+
+()
+**
+* / %
++ -
+________________________
+
+
+
+-Atribuição-
+
+var a = 5 + 3
+var b = a - 2 //Resultado 6
+
+Auto-atribuições
+
+var n = 3
+n = n + 4 // 'n' passa a valer 7
+n += 4 // Jeito simplificado de fazer a operação de cima
+
+Incremento
+
+var x = 5
+x = x + 1      x += 1         x++
+x = x - 1      x -= 1         x--
+
+
+
+-Relacionais-
+
+5 > 2     True
+7 < 4     False
+8 >= 8    True
+9 <= 7    False
+5 == 5    True
+4 != 4    False     // Não é igual
+
+Identidade
+
+5 == 5    True
+5 == '5'  True
+5 === '5' False     // Verifica se são IDÊNTICOS, mesmo valor e mesmo tipo
+5 === 5   True
+5 !== '5' True      // Desigual restrito, são tipos diferentes porém mesmo valor interno
+
+
+
+-Lógicos-
+
+!    Negação        == Não
+! True == False
+! False== True
+
+&&   Conjunção~     == Quer que ambas sejam verdadeiras
+True && True == True
+True && False== False
+False && True== False
+False && False== False
+
+||   Disjunção      == Basta que um deles seja verdadeiro
+True || True == True
+True || False== True
+False || True== True
+False || False== False
+
+__Ordem de execução operadores Lógicos__
+
+Não  !
+E    &&
+Ou   ||
+________________________________________
+
+
+
+-Ternário-
+
+teste ? true : false
+
+var média = 5.5
+Média >= 7.0 ? "Aprovado" : "Reprovado"
+'Reprovado'
+
+
+
+__Ordem de precedência__
+
+Aritméticos
+Relacionais
+Lógicos
+________________________
