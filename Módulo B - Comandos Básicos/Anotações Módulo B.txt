@@ -33,7 +33,7 @@ Dicas pra criação de variáveis:
 -Tente escolher nomes coerentes para as variáveis
 -Evite se tornar um 'programador alfabeto' ou um 'progamador contador'
 
-     typeoff // serve para saber o tipo do dado (Primitive Data)
+     typeof // serve para saber o tipo do dado (Primitive Data)
 
 Number
      Infinity
@@ -148,9 +148,9 @@ Identidade
 
 -Lógicos-
 
-!    Negação        == Não
-! True == False
-! False== True
+! == Negação == Não
+!True == False
+!False== True
 
 &&   Conjunção~     == Quer que ambas sejam verdadeiras
 True && True == True

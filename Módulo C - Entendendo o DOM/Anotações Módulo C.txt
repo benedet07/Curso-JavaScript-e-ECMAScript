@@ -32,7 +32,7 @@ Por Seletor
     querySelector()
     querySelectorAll() //Plural
 
-Toda div é representado por #
+Todo id é representado por #
 Toda classe é representada por .
 
 

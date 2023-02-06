@@ -1,5 +1,14 @@
         -//Primeira Aula//-
 
+for(let pos = 0; pos < valores.length; poss++){
+  console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
+
+É igual a:
+
+for(let pos in valores){
+  console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
 
 array = vetor []
 element = elemento
@@ -41,7 +50,7 @@ OBJECTS são VARIÁVEIS COMPOSTAS, assim como os ARRAYS.
 
   Array syntax:
 let identificador = [valor, valor, valor]
-                                     0        1        2
+                      0        1        2
   Object syntax:
 let identificador = {nome:valor, nome:valor, nome:valor}
 
